@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "42334280748",
+    "project_id": "courseapp-bee7c",
+    "storage_bucket": "courseapp-bee7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42334280748:android:42793be19032ea59b64589",
+        "android_client_info": {
+          "package_name": "com.example.yoga_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbNepqTNpuBHZcDQJ3zzQkiRBeXcHJjF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

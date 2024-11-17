@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.yoga_app.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_viewCartFragment"
+            app:destination="@id/navigation_view_cart" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_view_cart"
+        android:name="com.example.yoga_app.ui.home.CartFragment"
+        android:label="View Cart"
+        tools:layout="@layout/fragment_view_cart" />
+
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.example.yoga_app.ui.add.AddFragment"
+        android:label="@string/title_add"
+        tools:layout="@layout/fragment_add" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.yoga_app.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_classes"
+        android:name="com.example.yoga_app.ui.classes.ClassesFragment"
+        android:label="Classes"
+        tools:layout="@layout/fragment_classes" />
+
+    <fragment
+        android:id="@+id/navigation_add_class"
+        android:name="com.example.yoga_app.ui.classes.AddClassFragment"
+        android:label="Classes"
+        tools:layout="@layout/fragment_add_class" />
+
+
+</navigation>
